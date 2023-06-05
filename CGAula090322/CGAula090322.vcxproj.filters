@@ -15,46 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CGNormalMap.cpp">
+    <ClCompile Include="CGAula090322.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Textures\brickwall.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\brickwall_normal.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\canLabel.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\canTop.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\cray2.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\dado.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\dado2.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\grass.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\launch.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\nightSky.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\sky.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
-    <Image Include="Textures\trees.bmp">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
   </ItemGroup>
 </Project>

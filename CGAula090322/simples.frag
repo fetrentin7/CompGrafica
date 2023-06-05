@@ -10,18 +10,15 @@ uniform vec3 pos_luz;
 
 out vec4 corFinal;
 
-in vec4 cor;
 in vec2 pos_text;
 in vec3 normal;
 in vec3 posicao;
 
 void main (void){
 
-	//vec3 n = texture(textura_normal, pos_text).xyz;
-	//n.y = 1 - n.y;
-	//n = n * 2 - 1;
-
-	vec3 n = normal;
+	vec3 n = texture(textura_normal, pos_text).xyz;
+	n.y = 1 - n.y;
+	n = n * 2 - 1;
 	
 	vec3 norm = normalize(n); 
 	vec3 dirLuz = normalize(pos_luz - posicao); 
@@ -32,6 +29,5 @@ void main (void){
 
 	vec3 resultado_luz = luz_int_amb * cor_luz + resultado_luz_dif;
 	
-	//corFinal = texture(textura, pos_text) * vec4(resultado_luz, 1.0);
-	corFinal = texture(textura, pos_text);
+	corFinal = texture(textura, pos_text) * vec4(resultado_luz, 1.0);
 }
